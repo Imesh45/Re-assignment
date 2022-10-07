@@ -25,7 +25,7 @@ const Button = styled.button`
   return (
     <div>
         {state? <Price/>:<End/>}
-      {state? <Button onClick={handleClick}>Pay Now</Button>:null} // use Handling Events
+        {state? <Button onClick={handleClick}>Pay Now</Button>:null}            {/*  use Handling Events */}
     </div>
   )
 }

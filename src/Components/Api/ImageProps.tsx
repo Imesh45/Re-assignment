@@ -10,7 +10,6 @@ padding-right: 50px;
 padding-top: 40px;
 padding-bottom: 10px;
 width: 40%;
-height:90%;
 border-radius: 1.5rem; 
 box-shadow: 0 4px 6px -1px #15eb52, 0 2px 4px -1px #49e610; 
  `
@@ -43,7 +42,7 @@ function ImageProps(props: { urls: { thumb: string | undefined }; title: string 
   return (
     
     <Card>
-      /*create card structure 
+     { /*create card structure */}
      {state?<img src={props.urls.thumb} alt={props.title}/>:<PayNow/>}
      <Profile> {state? <p>Target :${props.target_amount}</p>:null} </Profile> 
      <Profile>{state? <Button onClick={handleClick}>Donate Now</Button>:null}</Profile>  

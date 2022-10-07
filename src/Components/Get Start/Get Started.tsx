@@ -16,7 +16,12 @@ top: 134px;
 
 background: linear-gradient(144.41deg, #818BE9 47.54%, #E47FDA 91.07%);
 border-radius: 20px;
-
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width:  66.66%;;
+  }
+}
 
 `
 
