@@ -1,0 +1,16 @@
+.dark {
+    background-color: rgb(27, 8, 8);
+    color: rgb(222, 103, 24);
+  }
+  .light {
+    background-color: #fff;
+    color: #333;
+  }
+
+  .changetheme{
+   margin-left:1400px;
+   margin-top: 2px;
+   
+  }
+
+  
